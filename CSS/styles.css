@@ -1,0 +1,20 @@
+/* RESETEAR LOS ESTILOS POR DEFECTO DEL NAVEGADOR PARA CADA UNO DE LOS ELEMENTOS HTML */
+@import "Base/base.css";
+
+/* IMPORTAR COLORES Y TIPOGRAFIAS */
+@import "Variables/colores.css";
+@import "Variables/fuentes.css";
+
+/* DEFINEN EL LAYOUT DE LA PÁGINA Y DE LOS COMPONENTES */
+@import "Layout/base.css";
+@import "Layout/header.css";
+@import "Layout/header__nav-bar.css";
+@import "Layout/header__links.css";
+
+/* DEFINEN LOS ESTILOS DE CADA UNO DE LOS COMPONENTES */
+@import "Estilos/base.css";
+@import "Estilos/header.css";
+@import "Estilos/header__nav-bar.css";
+@import "Estilos/header__logo.css";
+@import "Estilos/header__links.css";
+@import "Estilos/header__link.css";

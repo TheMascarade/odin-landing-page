@@ -1,0 +1,7 @@
+.c-header{
+	display: flex;
+	flex: 0 0 auto;
+	justify-content: center;
+	background-color: var(--color-bg-oscuro);
+	color: var(--color-fg-claro-1);
+}

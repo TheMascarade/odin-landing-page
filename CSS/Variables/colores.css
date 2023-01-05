@@ -1,0 +1,11 @@
+:root{
+	/* COLORES DE FONDO */
+	--color-bg-oscuro: #1f2937;
+	--color-bg-claro: white;
+	--color-bg-cita: #e5e7eb;
+	--color-bg-acento: #3882f6;
+	/* COLORES DE FUENTE */
+	--color-fg-claro-1: white;
+	--color-fg-claro-2: var(--color-bg-cita);
+	--color-fg-oscuro: var(--color-bg-oscuro);
+}
