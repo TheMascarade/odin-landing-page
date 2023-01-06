@@ -5,3 +5,14 @@
 	background-color: var(--color-bg-oscuro);
 	color: var(--color-fg-claro-1);
 }
+.c-header__link{
+	color: var(--color-fg-claro-2);
+}
+.c-header__links{
+	list-style-type: none;
+}
+.c-header__logo{
+	text-align: center;
+	font-size: var(--fuente-g);
+	font-weight: bold;
+}
