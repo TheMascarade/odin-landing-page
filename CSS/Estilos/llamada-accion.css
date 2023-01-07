@@ -1,0 +1,21 @@
+.c-llamada-accion__apartado{
+	display: flex;
+	width: fit-content;
+	height: fit-content;
+	padding: 60px 100px;
+	border-radius: 10px;
+	background-color: var(--color-bg-acento);
+}
+.c-apartado__texto{
+	color: var(--color-fg-claro-1);
+	width: 70%;
+}
+.c-apartado__titulo{
+	font-size: var(--fuente-g);
+}
+.c-llamada-accion__boton-registro{
+	background-color: var(--color-bg-acento);
+	border: 2px solid white;
+	border-radius: 6px;
+	padding: 4px 25px;
+}

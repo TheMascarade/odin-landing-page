@@ -4,7 +4,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="CSS/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" 
+		href="CSS/styles.css">
 	<title>Hero text</title>
 </head>
 <body>
@@ -32,26 +36,47 @@
 			<img class="c-presentacion__portada" src="Recursos/portada-paris.jpg" alt="">
 		</div>
 	</section>
-	<section class="seccion-2">
-		<h1>varius quam quisque id</h1>
-		<ul class="acordeon">
-			<li class="item">
-				<div class="ilustracion"></div>
-				<p>Descricpion</p>
-			</li>
-			<li class="item">
-				<div class="ilustracion"></div>
-				<p>Descricpion</p>
-			</li>
-			<li class="item">
-				<div class="ilustracion"></div>
-				<p>Descricpion</p>
-			</li>
-			<li class="item">
-				<div class="ilustracion"></div>
-				<p>Descricpion</p>
-			</li>
-		</ul>
+	<section class="c-informacion">
+		<div class="l-informacion">
+			<h2 class="c-informacion__titulo">varius quam quisque id</h2>
+			<ul class="l-informacion__acordeon c-informacion__acordeon">
+				<li class="c-acordeon__item">
+					<div class="c-item__ilustracion"></div>
+					<p class="c-item__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</li>
+				<li class="c-acordeon__item">
+					<div class="c-item__ilustracion"></div>
+					<p class="c-item__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</li>
+				<li class="c-acordeon__item">
+					<div class="c-item__ilustracion"></div>
+					<p class="c-item__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</li>
+				<li class="c-acordeon__item">
+					<div class="c-item__ilustracion"></div>
+					<p class="c-item__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="c-cita">
+		<div class="l-cita">
+			<em class="c-cita__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et ultrices neque ornare aenean euismod elementum. Nisl pretium fusce id velit ut tortor.</em>
+			<strong class="c-cita__autor">-Thor, God of Thunder</strong>
+		</div>
+	</section>
+	<section class="c-llamada-accion">
+		<div class="l-llamada-accion">
+			<div class="c-llamada-accion__apartado l-llamada-accion__apartado">
+				<span class="c-apartado__texto">
+					<h3 class="c-apartado__titulo">Call to action! It's time!</h3>
+					<p class="c-apartado__mensaje">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</span>
+				<button class="c-llamada-accion__boton-registro">
+					<a class="c-boton__link" href="#">Sign up</a>
+				</button>
+			</div>
+		</div>
 	</section>
 </body>
 </html>

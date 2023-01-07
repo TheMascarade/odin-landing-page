@@ -1,13 +1,21 @@
 body{
 	font-family: var(--font-family);
+	font-size: var(--fuente-n);
+}
+.c-header,
+.c-presentacion,
+.c-informacion,
+.c-cita,
+.c-llamada-accion,
+.c-footer{
+	display: flex;
+	flex: 0 0 auto;
+	align-items: center;
+	justify-content: center;
 }
 .c-header,
 .c-presentacion,
 .c-footer{
-	display: flex;
-	flex: 0 0 auto;
 	background-color: var(--color-bg-oscuro);
 	color: var(--color-fg-claro-1);
-	align-items: center;
-	justify-content: center;
 }

@@ -1,0 +1,6 @@
+.l-llamada-accion__apartado{
+	display: flex;
+	gap: 80px;
+	justify-content: space-between;
+	align-items: center;
+}

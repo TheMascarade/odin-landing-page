@@ -3,7 +3,7 @@
 }
 .c-presentacion__titulo{
 	font-size: var(--fuente-xxg);
-	font-weight: bolder;
+	font-weight: 900;
 }
 .c-presentacion__descripcion{
 	color: var(--color-fg-claro-2);
@@ -16,8 +16,11 @@
 }
 .c-boton__link{
 	color: var(--color-fg-claro-1);
+	font-weight: bold;
+	width: auto;
 }
 .c-presentacion__portada{
-	width: 50%;
-	height: fit-content;
+	width: 60%;
+	height: auto;
+	border-radius: 10px;
 }

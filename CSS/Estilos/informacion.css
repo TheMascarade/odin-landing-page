@@ -1,0 +1,25 @@
+.c-informacion__titulo{
+	color: var(--color-fg-oscuro);
+	font-size: var(--fuente-xg);
+	font-weight: 900;
+	margin: 30px;
+}
+.c-informacion__acordeon{
+	list-style-type: none;
+}
+.c-acordeon__item{
+	width: 200px;
+	height: fit-content;
+}
+.c-item__ilustracion{
+	height: 200px;
+	width: 200px;
+	border: 3px solid var(--color-bg-acento);
+	border-radius: 10px;
+}
+.c-item__descripcion{
+	text-align: center;
+	margin-top: 10px;
+	color: var(--color-fg-oscuro);
+	font-weight: 300;
+}

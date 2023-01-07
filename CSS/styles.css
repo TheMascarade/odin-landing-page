@@ -9,8 +9,14 @@
 @import "Layout/base.css";
 @import "Layout/header.css";
 @import "Layout/presentacion.css";
+@import "Layout/informacion.css";
+@import "Layout/cita.css";
+@import "Layout/llamada-accion.css";
 
 /* DEFINEN LOS ESTILOS DE CADA UNO DE LOS COMPONENTES */
 @import "Estilos/base.css";
 @import "Estilos/header.css";
 @import "Estilos/presentacion.css";
+@import "Estilos/informacion.css";
+@import "Estilos/cita.css";
+@import "Estilos/llamada-accion.css";

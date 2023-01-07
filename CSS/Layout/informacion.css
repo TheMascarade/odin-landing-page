@@ -1,0 +1,15 @@
+.l-informacion{
+	flex-direction: column;
+	flex: auto;
+	justify-content: space-evenly;
+}
+.l-informacion__acordeon{
+	display: flex;
+	flex: 0 1 auto;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+	gap: 30px;
+	align-items: center;
+	justify-content: space-around;
+}

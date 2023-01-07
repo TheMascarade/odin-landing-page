@@ -1,7 +1,11 @@
+.l-presentacion{
+	flex-wrap: wrap;
+}
 .l-presentacion__contenido{
 	display:flex;
 	flex: auto;
 	flex-direction: column;
 	justify-content: center;
+	width: 30%;
 	gap: 20px;
 }

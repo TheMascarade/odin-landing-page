@@ -1,0 +1,14 @@
+.c-cita{
+	background-color: var(--color-bg-cita);
+}
+.c-cita__texto{
+	font-style: italic;
+	color: var(--color-fg-oscuro);
+	font-size: var(--fuente-xg);
+	font-weight: 300;
+}
+.c-cita__autor{
+	width: 100%;
+	text-align: right;
+	font-weight: 800;
+}
