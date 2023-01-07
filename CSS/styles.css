@@ -12,6 +12,7 @@
 @import "Layout/informacion.css";
 @import "Layout/cita.css";
 @import "Layout/llamada-accion.css";
+@import "Layout/footer.css";
 
 /* DEFINEN LOS ESTILOS DE CADA UNO DE LOS COMPONENTES */
 @import "Estilos/base.css";
@@ -19,4 +20,4 @@
 @import "Estilos/presentacion.css";
 @import "Estilos/informacion.css";
 @import "Estilos/cita.css";
-@import "Estilos/llamada-accion.css";
+@import "Estilos/llamada-accion.css";@import "Estilos/footer.css";

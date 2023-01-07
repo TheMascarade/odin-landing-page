@@ -17,6 +17,7 @@
 .c-boton__link{
 	color: var(--color-fg-claro-1);
 	font-weight: bold;
+	font-size: var(--fuente-n);
 	width: auto;
 }
 .c-presentacion__portada{
